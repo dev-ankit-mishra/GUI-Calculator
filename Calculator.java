@@ -146,6 +146,7 @@ public class Calculator implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==b1){
             tf.setText(b1.getLabel());
+            System.out.println("hello");
         }
         else if(e.getSource()==b2){
             tf.setText(b2.getLabel());
